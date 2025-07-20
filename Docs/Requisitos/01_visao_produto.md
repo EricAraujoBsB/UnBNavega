@@ -44,7 +44,7 @@ O **UnB Navega** resolve esses problemas ao integrar diversas funcionalidades em
 - **Mapa interno detalhado**: Diferente do Google Maps, que não oferece mapas internos detalhados de universidades, o **UnB Navega** possui mapeamento detalhado de áreas como o ICC, auditórios, salas e outros espaços, ajudando o aluno a se orientar com precisão.
 - **Integração com a grade de horários**: O app oferece a capacidade de integrar a grade de horários do aluno, otimizando o tempo e sugerindo o melhor horário para sair de um ponto a outro no campus.
 - **Informações de transporte público em tempo real**: Ao integrar com as APIs de transporte público, o app fornece dados atualizados sobre as paradas de ônibus e o tempo de chegada dos veículos.
-- **Foco na acessibilidade**: Com funcionalidades como alto contraste, leitura de textos e navegação simplificada, o app se destaca por ser acessível para todos os usuários, independentemente de suas necessidades.
+- **Foco na acessibilidade**: Com funcionalidades como alto contraste, leitura de textos e navegação simplificada, o app se destaca por ser acessível para todos os usuários.
 
 ---
 
@@ -58,13 +58,14 @@ O **UnB Navega** resolve esses problemas ao integrar diversas funcionalidades em
 
 ---
 
-## Tecnologias Utilizadas
+## Tecnologias Sugeridas
 
 A seguir, as tecnologias recomendadas para o desenvolvimento do **UnB Navega**, levando em consideração a necessidade de compatibilidade multiplataforma, dados em tempo real e integração com APIs externas.
 
 ### **Front-End (Aplicativo Móvel)**:
-- **Flutter**: Framework multiplataforma que permite o desenvolvimento nativo tanto para **Android** quanto para **iOS** com um único código base.
-- **Dart**: Linguagem de programação usada no Flutter, que oferece alta performance e facilidade de manutenção.
+- **React Native**: Framework multiplataforma que permite o desenvolvimento de aplicativos nativos para **Android** e **iOS** com um único código base, aproveitando a biblioteca React.
+- **JavaScript/TypeScript**: Linguagens utilizadas no React Native, proporcionando flexibilidade e alta performance para o desenvolvimento do aplicativo.
+- **Redux**: Para gerenciamento de estado global e integração eficiente com a navegação e os dados do aplicativo.
 
 ### **Back-End**:
 - **Node.js** com **Express.js**: Para o desenvolvimento da API RESTful, que gerenciará as integrações com bancos de dados, horários de aulas e transporte público.
@@ -82,7 +83,7 @@ A seguir, as tecnologias recomendadas para o desenvolvimento do **UnB Navega**, 
 - **Firebase Cloud Messaging (FCM)**: Para enviar notificações push sobre horários de aulas, alertas de transporte público e lembretes de rotas.
 
 ### **Acessibilidade**:
-- **Flutter Accessibility Widgets**: Para garantir que o app seja acessível a usuários com necessidades especiais, com suporte a leitura de tela, alto contraste e navegação simplificada.
+- **React Native Accessibility**: Para garantir que o app seja acessível a usuários com necessidades especiais, com suporte a leitura de tela, alto contraste e navegação simplificada.
 
 ### **Segurança**:
 - **OAuth 2.0**: Para garantir uma autenticação segura e moderna, permitindo acesso controlado ao sistema.
@@ -92,8 +93,8 @@ A seguir, as tecnologias recomendadas para o desenvolvimento do **UnB Navega**, 
 
 ## Colaboradores
 
-| Papel                     | Responsáveis                                      | Atividades Principais                                                                          |
-|---------------------------|---------------------------------------------------|------------------------------------------------------------------------------------------------|
+| Papel                    | Responsáveis                                      | Atividades Principais                                                                          |
+|--------------------------|---------------------------------------------------|------------------------------------------------------------------------------------------------|
 | **Stakeholder**           | Eric Gomes                                        | Validação dos requisitos e avaliação dos resultados                                            |
 | **UI/UX Designer**        | Mayra Lithuania                                   | Identidade Visual e Experiência de Usuário                                                     |
 | **FrontEnd**              | Mayra Lithuania                                   | Desenvolvimento da identidade visual, telas e experiência de usuário                           |
@@ -101,3 +102,42 @@ A seguir, as tecnologias recomendadas para o desenvolvimento do **UnB Navega**, 
 | **Data Specialist**       | Guilherme Flyan                                   | Preparação de Arquitetura, desenvolvimento de Banco de Dados e Segurança do Sistema            |
 | **QA Tester**             | Luana Medeiros                                    | Desenvolvimento e automação de testes, construção do Pipeline e priorização de funcionalidades |
 | **Usuários**              | Estudantes, professores e coordenadores da UnB    | Consumo de aplicativo, devolutivas de experiências e avaliação de desempenho                   |
+
+---
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/EricAraujoBsB">
+        <img src="Docs/assets/Colabs/Eric Gomes.jpeg" width="33%;" alt="Eric Gomes"/><br>
+        <sub><b>Eric Gomes de Araujo</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Lithuania0">
+        <img src="Docs/assets/Colabs/Mayra Lithuania.jpeg" width="33%;" alt="Mayra Lithuania"/><br>
+        <sub><b>Mayra Lithuania</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GFlyan">
+        <img src="Docs/assets/Colabs/Guilherme Flyan.jpeg" width="33%;" alt="Guilherme Flyan"/><br>
+        <sub><b>Guilherme Flyan</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gabegmbr">
+        <img src="Docs/assets/Colabs/Gabriel Maciel.jpeg" width="50%;" alt="Gabriel Maciel"/><br>
+        <sub><b>Gabriel Maciel</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/luaMedeiros">
+        <img src="Docs/assets/Colabs/Lua.jpeg" width="50%;" alt="Lua Medeiros"/><br>
+        <sub><b>Lua Medeiros</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>

@@ -109,19 +109,19 @@ A seguir, as tecnologias recomendadas para o desenvolvimento do **UnB Navega**, 
   <tr>
     <td align="center">
       <a href="https://github.com/EricAraujoBsB">
-        <img src="Docs/assets/Colabs/Eric Gomes.jpeg" width="33%;" alt="Eric Gomes"/><br>
+        <img src="../assets/colabs/Eric_Gomes.jpeg" width="33%;" alt="Eric Gomes"/><br>
         <sub><b>Eric Gomes de Araujo</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/Lithuania0">
-        <img src="Docs/assets/Colabs/Mayra Lithuania.jpeg" width="33%;" alt="Mayra Lithuania"/><br>
+        <img src="../assets/colabs/Mayra_Lithuania.jpeg" width="33%;" alt="Mayra Lithuania"/><br>
         <sub><b>Mayra Lithuania</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/GFlyan">
-        <img src="Docs/assets/Colabs/Guilherme Flyan.jpeg" width="33%;" alt="Guilherme Flyan"/><br>
+        <img src="../assets/colabs/Guilherme_Flyan.jpeg" width="33%;" alt="Guilherme Flyan"/><br>
         <sub><b>Guilherme Flyan</b></sub>
       </a>
     </td>
@@ -129,13 +129,13 @@ A seguir, as tecnologias recomendadas para o desenvolvimento do **UnB Navega**, 
   <tr>
     <td align="center">
       <a href="https://github.com/gabegmbr">
-        <img src="Docs/assets/Colabs/Gabriel Maciel.jpeg" width="50%;" alt="Gabriel Maciel"/><br>
+        <img src="../assets/colabs/Gabriel_Maciel.jpeg" width="50%;" alt="Gabriel Maciel"/><br>
         <sub><b>Gabriel Maciel</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/luaMedeiros">
-        <img src="Docs/assets/Colabs/Lua.jpeg" width="50%;" alt="Lua Medeiros"/><br>
+        <img src="../assets/colabs/Lua_Medeiros.png" width="50%;" alt="Lua Medeiros"/><br>
         <sub><b>Lua Medeiros</b></sub>
       </a>
     </td>

@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "UnBNavega",
+    "slug": "unbnavega",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "googleMapsApiKey": ""
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "package": "com.myapp.unbnavega",
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
+      "runtimeVersion": "1.0.0"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2b9884cd-7de3-400b-a43f-20b8d286641d"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2b9884cd-7de3-400b-a43f-20b8d286641d"
+    }
+  }
+}

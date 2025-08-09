@@ -3,8 +3,14 @@ import { View, Image, StyleSheet } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { colors } from '../theme/colors';
+import { useNavigation } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { RootStackParamList } from '../types';
+
+type LoginScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Login'>;
 
 export default function LoginScreen() {
+  const navigation = useNavigation<LoginScreenNavigationProp>();
   return (
     <View style={styles.container}>
       <Image
@@ -25,7 +31,7 @@ export default function LoginScreen() {
       <PrimaryButton
         label="Continuar como anônimo"
         variant="primary"
-        onPress={() => console.log('Login anônimo')}
+        onPress={() => navigation.navigate('Home')}
         style={{ marginTop: 18 }}
       />
     </View>
